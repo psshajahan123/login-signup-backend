@@ -1,0 +1,50 @@
+.app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(78, 17, 51);
+}
+.form-container {
+    width: 300px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fdf8f8;
+    border-radius: 9px;
+}
+
+.label {
+    color: black;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    padding: 3px 0px;
+}
+
+.input-el {
+    height: 36px;
+    border:1px solid #d0c8c8;
+    border-radius: 6px;
+    outline-width: 0px;
+    color: blue;
+    font-size: 16px;
+    font-family: "Bree Serif";
+    padding-left: 5px;
+    margin-bottom: 4px;
+}
+
+.register-button {
+    background-color: rgb(195, 141, 233);
+    border-width: 0px;
+    border-radius: 5px;
+    color: #ffffff;
+    height: 40px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 7px;
+    align-self: center;
+}
