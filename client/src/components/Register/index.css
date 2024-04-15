@@ -6,6 +6,16 @@
     align-items: center;
     background-color: rgb(78, 17, 51);
 }
+.app-heading-register {
+    color: #ffffff;
+    font-size: 28px;
+    font-family: "Roboto";
+    text-decoration: underline;
+    text-decoration-color: #caa3a3;
+    text-decoration-thickness: 0.1em;
+    text-decoration-style:wavy;
+    margin-bottom: 20px;
+}
 .form-container {
     width: 300px;
     padding: 25px;

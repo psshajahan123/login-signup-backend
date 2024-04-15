@@ -2,6 +2,7 @@ import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useSnackbar } from "notistack";
+import Cookies from "js-cookie";
 
 import "./index.css";
 
@@ -14,7 +15,7 @@ const Register = () => {
 
   const onSubmitForm = (event) => {
     event.preventDefault();
-    console.log("submit called");
+
     const userData = {
       name,
       email,
@@ -35,6 +36,7 @@ const Register = () => {
 
   return (
     <div className="app-container">
+      <h1 className="app-heading-register">Register</h1>
       <form className="form-container" onSubmit={onSubmitForm}>
         <label className="label">Name</label>
         <input
@@ -56,6 +58,7 @@ const Register = () => {
         <input
           type="password"
           className="input-el"
+          minLength={8}
           onChange={(e) => setPassword(e.target.value)}
           placeholder="Enter password"
           required
