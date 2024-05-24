@@ -36,36 +36,35 @@ const Register = () => {
 
   return (
     <div className="app-container">
-      <h1 className="app-heading-register">Register</h1>
       <form className="form-container" onSubmit={onSubmitForm}>
-        <label className="label">Name</label>
+        <h1 className="app-heading-register">Register</h1>
         <input
           type="text"
           className="input-el"
           onChange={(e) => setName(e.target.value)}
-          placeholder="Enter Your Name"
+          placeholder="Enter your name"
           required
         />
-        <label className="label">Email</label>
+        
         <input
           type="email"
           className="input-el"
           onChange={(e) => setEmail(e.target.value)}
-          placeholder="Enter email address"
+          placeholder="Enter your email"
           required
         />
-        <label className="label">Password</label>
         <input
           type="password"
           className="input-el"
           minLength={8}
           onChange={(e) => setPassword(e.target.value)}
-          placeholder="Enter password"
+          placeholder="Create a password"
           required
         />
         <button type="submit" className="register-button">
           Register
         </button>
+        <p className="link-text">Already have an account? <a href="/login" target="_self" className="login-link-text">Login</a></p>
       </form>
     </div>
   );

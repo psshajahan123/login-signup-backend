@@ -4,21 +4,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(78, 17, 51);
+    background-color: rgb(84, 148, 119);
 }
 .app-heading-register {
-    color: #ffffff;
+    color: #1e181e;
     font-size: 28px;
-    font-family: "Roboto";
+    font-family:cursive;
     text-decoration: underline;
-    text-decoration-color: #caa3a3;
-    text-decoration-thickness: 0.1em;
-    text-decoration-style:wavy;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
+    align-self: center;
 }
 .form-container {
     width: 300px;
     padding: 25px;
+    padding-top: 17px;
+    padding-bottom: 7px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,25 +36,37 @@
 }
 
 .input-el {
-    height: 36px;
+    height: 40px;
     border:1px solid #d0c8c8;
     border-radius: 6px;
     outline-width: 0px;
     color: blue;
     font-size: 16px;
-    font-family: "Bree Serif";
-    padding-left: 5px;
-    margin-bottom: 4px;
+    font-family: DejaVu Sans Mono, monospace;
+    font-weight: 500;
+    padding: 5px 16px;
+    margin-bottom: 18px;
 }
 
 .register-button {
-    background-color: rgb(195, 141, 233);
+    background-color:  rgb(84, 148, 119);
     border-width: 0px;
     border-radius: 5px;
     color: #ffffff;
-    height: 40px;
+    height: 45px;
     font-size: 17px;
     font-weight: 500;
-    margin-top: 7px;
-    align-self: center;
+    font-family: "Roboto";
+    margin-top: 16px;
+}
+
+.link-text {
+    font-size: 14px;
+    color: #8b4c8e;
+    font-weight: 500;
+    font-family: monospace;
+}
+
+.login-link-text {
+    font-weight: 600;
 }
